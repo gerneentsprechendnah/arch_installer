@@ -10,7 +10,7 @@ echo "/tmp/apps.csv" >> "/tmp/packages"
 packages=$(/tmp/packages)
 
 # Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/gerneentsprechendnah/dotfiles/programms/list.csv > $apps_path
+curl https://raw.githubusercontent.com/gerneentsprechendnah/arch_installer/refs/heads/master/apps.csv > $apps_path
 
 pacman -Syu --noconfirm
 
